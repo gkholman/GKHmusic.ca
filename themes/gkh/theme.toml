@@ -1,0 +1,5 @@
+name = "GKH"
+description = "Custom theme for GKH Music EPK"
+license = "Proprietary"
+homepage = "https://www.GKHmusic.ca"
+min_version = "0.120.0"

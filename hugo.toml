@@ -1,0 +1,58 @@
+baseURL      = "https://www.GKHmusic.ca/"
+languageCode = "en-ca"
+title        = "GKH Music — G. Ken Holman"
+theme        = "gkh"
+disableKinds = ["taxonomy", "term", "RSS"]
+
+[params]
+  artistName  = "G. Ken Holman"
+  tagline     = "Fingerstyle Guitar · Ottawa, Canada"
+  email       = "GKHmusic.ca@gmail.com"
+  phone       = "+1-613-807-9268"
+  location    = "Ottawa, Canada"
+  description = "Electronic Press Kit for G. Ken Holman — fingerstyle guitarist available for festivals, restaurants, wineries, private events, and cultural venues across the Ottawa region and beyond."
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "#about"
+    weight     = 10
+  [[menu.main]]
+    identifier = "music"
+    name       = "Music"
+    url        = "#music"
+    weight     = 20
+  [[menu.main]]
+    identifier = "instrument"
+    name       = "The Instrument"
+    url        = "#instrument"
+    weight     = 30
+  [[menu.main]]
+    identifier = "repertoire"
+    name       = "Repertoire"
+    url        = "#repertoire"
+    weight     = 40
+  [[menu.main]]
+    identifier = "gallery"
+    name       = "Gallery"
+    url        = "#gallery"
+    weight     = 50
+  [[menu.main]]
+    identifier = "logistics"
+    name       = "Logistics"
+    url        = "#logistics"
+    weight     = 60
+  [[menu.main]]
+    identifier = "contact"
+    name       = "Contact"
+    url        = "#contact"
+    weight     = 70
+  [[menu.main]]
+    identifier = "colophon"
+    name       = "Colophon"
+    url        = "/colophon/"
+    weight     = 80
+
+[markup.goldmark.renderer]
+  unsafe = true
