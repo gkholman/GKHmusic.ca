@@ -16,3 +16,4 @@ label: "Humanitarian Work"
   Ken volunteers in East Africa with <a href="https://projecTEMBO.org" target="_blank" rel="noopener">Project TEMBO</a>,
   a registered Canadian charity. More photographs will be added.
 </p>
+<p style="margin-top:1.5rem;"><a href="https://gkhmusic.ca/#payment" class="view-all">&larr; Back to home</a></p>

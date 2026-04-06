@@ -397,6 +397,8 @@ nav {
   display: block;
   margin: 0 auto;
   width: 100%;
+  max-width: 340px;
+  aspect-ratio: 3/4;
   object-fit: cover;
   object-position: center;
   border: 1px solid var(--divider);
@@ -408,6 +410,15 @@ nav {
 .nashipai-text a { color: var(--amber-pale); }
 
 /* ── GALLERIES ─────────────────────────────────────────── */
+.gallery-placeholder-box {
+  display: inline-block;
+  border: 2px solid var(--amber);
+  color: var(--text-mid);
+  font-style: italic;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+}
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

@@ -27,3 +27,4 @@ label: "Gallery"
 
 </div>
 <p style="font-size:0.85rem;font-style:italic;color:var(--text-mid);">More highlights will be added as the collection grows.</p>
+<p style="margin-top:1.5rem;"><a href="https://gkhmusic.ca/#highlights" class="view-all">&larr; Back to home</a></p>

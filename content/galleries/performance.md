@@ -68,3 +68,4 @@ label: "Gallery"
   </div>
 
 </div>
+<p style="margin-top:1.5rem;"><a href="https://gkhmusic.ca/#gallery" class="view-all">&larr; Back to home</a></p>
