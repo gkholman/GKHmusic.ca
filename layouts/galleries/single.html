@@ -8,7 +8,43 @@
 <div class="strip-page"></div>
 <div style="padding:4rem 2rem;background:var(--cream);min-height:60vh;">
   <div style="max-width:1100px;margin:0 auto;">
-    {{ .Content }}
+
+    {{/* ── Photo grid ─────────────────────────────────────── */}}
+    {{ with .Params.photos }}
+    <div class="gallery-full">
+      {{ range . }}
+      <div class="thumb-item">
+        <a href="/images/{{ .image }}" class="glightbox"
+           data-gallery="{{ $.Params.gallery_key }}"
+           data-description="{{ .caption }}">
+          <img src="/images/{{ .image }}" alt="{{ .alt }}">
+        </a>
+        <p class="thumb-caption">{{ .caption }}</p>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{/* ── Placeholder box (no photos yet) ────────────────── */}}
+    {{ with .Params.placeholder }}
+    <div class="gallery-placeholder-box">{{ . }}</div>
+    {{ end }}
+
+    {{/* ── Optional footnote (plain text) ─────────────────── */}}
+    {{ with .Params.note }}
+    <p style="font-size:0.85rem;font-style:italic;color:var(--text-mid);margin-bottom:1rem;">{{ . }}</p>
+    {{ end }}
+
+    {{/* ── Optional footnote (HTML, e.g. with links) ───────── */}}
+    {{ with .Params.note_html }}
+    <p style="font-size:0.85rem;font-style:italic;color:var(--text-mid);margin-bottom:1rem;">{{ . | safeHTML }}</p>
+    {{ end }}
+
+    {{/* ── Back link ───────────────────────────────────────── */}}
+    {{ with .Params.back_url }}
+    <p style="margin-top:1.5rem;"><a href="{{ . }}" class="view-all">&larr; Back to home</a></p>
+    {{ end }}
+
   </div>
 </div>
 <div class="strip-page"></div>

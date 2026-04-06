@@ -1,71 +1,34 @@
 ---
-title: "Performances"
-label: "Gallery"
+title:       "Performances"
+label:       "Gallery"
+gallery_key: "perf"
+back_url:    "https://gkhmusic.ca/#gallery"
+photos:
+  - image:   "KenDanby1.png"
+    alt:     "Ken at Danby's"
+    caption: "Danby's 2026-03-30"
+  - image:   "KenDanby2.png"
+    alt:     "Ken at Danby's"
+    caption: "Danby's 2026-03-30"
+  - image:   "KenDanby3.png"
+    alt:     "Ken at Danby's"
+    caption: "Danby's 2026-03-30"
+  - image:   "KenDanby4.png"
+    alt:     "Ken mid-strum at Danby's"
+    caption: "Danby's 2026-03-30 — mid-strum"
+  - image:   "DanbysTake1.png"
+    alt:     "Ken at Danby's"
+    caption: "Danby's 2026-03-30"
+  - image:   "DanbysTake2.png"
+    alt:     "Ken at Danby's"
+    caption: "Danby's 2026-03-30"
+  - image:   "DanbysTake3.png"
+    alt:     "Ken at Danby's"
+    caption: "Danby's 2026-03-30"
+  - image:   "KenBB1.png"
+    alt:     "Ken at Brews and Blues"
+    caption: "Brews and Blues 2026-03-25"
+  - image:   "leprechaun.jpg"
+    alt:     "St. Patrick's Day"
+    caption: "St. Patrick's Day 2026"
 ---
-<div class="gallery-full">
-
-  <div class="thumb-item">
-    <a href="/images/KenDanby1.png" class="glightbox" data-gallery="perf" data-description="Danby's 2026-03-30">
-      <img src="/images/KenDanby1.png" alt="Ken at Danby's">
-    </a>
-    <p class="thumb-caption">Danby's 2026-03-30</p>
-  </div>
-
-  <div class="thumb-item">
-    <a href="/images/KenDanby2.png" class="glightbox" data-gallery="perf" data-description="Danby's 2026-03-30">
-      <img src="/images/KenDanby2.png" alt="Ken at Danby's">
-    </a>
-    <p class="thumb-caption">Danby's 2026-03-30</p>
-  </div>
-
-  <div class="thumb-item">
-    <a href="/images/KenDanby3.png" class="glightbox" data-gallery="perf" data-description="Danby's 2026-03-30">
-      <img src="/images/KenDanby3.png" alt="Ken at Danby's">
-    </a>
-    <p class="thumb-caption">Danby's 2026-03-30</p>
-  </div>
-
-  <div class="thumb-item">
-    <a href="/images/KenDanby4.png" class="glightbox" data-gallery="perf" data-description="Danby's 2026-03-30 — mid-strum">
-      <img src="/images/KenDanby4.png" alt="Ken mid-strum at Danby's">
-    </a>
-    <p class="thumb-caption">Danby's 2026-03-30</p>
-  </div>
-
-  <div class="thumb-item">
-    <a href="/images/DanbysTake1.png" class="glightbox" data-gallery="perf" data-description="Danby's 2026-03-30">
-      <img src="/images/DanbysTake1.png" alt="Ken at Danby's">
-    </a>
-    <p class="thumb-caption">Danby's 2026-03-30</p>
-  </div>
-
-  <div class="thumb-item">
-    <a href="/images/DanbysTake2.png" class="glightbox" data-gallery="perf" data-description="Danby's 2026-03-30">
-      <img src="/images/DanbysTake2.png" alt="Ken at Danby's">
-    </a>
-    <p class="thumb-caption">Danby's 2026-03-30</p>
-  </div>
-
-  <div class="thumb-item">
-    <a href="/images/DanbysTake3.png" class="glightbox" data-gallery="perf" data-description="Danby's 2026-03-30">
-      <img src="/images/DanbysTake3.png" alt="Ken at Danby's">
-    </a>
-    <p class="thumb-caption">Danby's 2026-03-30</p>
-  </div>
-
-  <div class="thumb-item">
-    <a href="/images/KenBB1.png" class="glightbox" data-gallery="perf" data-description="Brews and Blues 2026-03-25">
-      <img src="/images/KenBB1.png" alt="Ken at Brews and Blues">
-    </a>
-    <p class="thumb-caption">Brews and Blues 2026-03-25</p>
-  </div>
-
-  <div class="thumb-item">
-    <a href="/images/leprechaun.jpg" class="glightbox" data-gallery="perf" data-description="St. Patrick's Day 2026">
-      <img src="/images/leprechaun.jpg" alt="St. Patrick's Day">
-    </a>
-    <p class="thumb-caption">St. Patrick's Day 2026</p>
-  </div>
-
-</div>
-<p style="margin-top:1.5rem;"><a href="https://gkhmusic.ca/#gallery" class="view-all">&larr; Back to home</a></p>
