@@ -1,0 +1,4 @@
+Remember to use:
+
+tar -xzf tar-file-from-Claude-in-this-directory
+
