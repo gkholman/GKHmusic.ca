@@ -454,6 +454,9 @@ nav {
 }
 .thumb-item { display: flex; flex-direction: column; }
 
+/* ── PERFORMANCES gallery — 50% preview size vs Highlights ── */
+#gallery .thumb-grid { grid-template-columns: repeat(6, 1fr); }
+
 /* ── FULL GALLERY GRID (subpages) ──────────────────────── */
 .gallery-full {
   display: grid;
@@ -583,6 +586,7 @@ footer a { color: var(--amber-pale); }
   .gallery-grid { grid-template-columns: repeat(2, 1fr); }
   .gallery-full { grid-template-columns: repeat(2, 1fr); }
   .thumb-grid { grid-template-columns: repeat(2, 1fr); }
+  #gallery .thumb-grid { grid-template-columns: repeat(4, 1fr); }
   .nav-links { display: none; }
 }
 @media (max-width: 500px) {
