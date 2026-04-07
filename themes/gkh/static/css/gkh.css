@@ -48,7 +48,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   height: 56px;
-  flex-wrap: wrap;
 }
 .nav-brand {
   font-family: 'Cormorant Garamond', serif;
@@ -76,20 +75,24 @@ nav {
 }
 .nav-links a:hover { color: var(--amber-pale); text-decoration: none; }
 
-/* ── HAMBURGER MENU (mobile + narrow desktop) ──────────── */
-.nav-toggle-input { display: none; }
+/* ── HAMBURGER BUTTON ──────────────────────────────────── */
 .nav-hamburger {
   display: none;
   flex-direction: column;
   justify-content: space-between;
-  width: 24px;
-  height: 18px;
+  width: 28px;
+  height: 20px;
+  background: none;
+  border: none;
+  padding: 0;
   cursor: pointer;
   z-index: 101;
+  flex-shrink: 0;
 }
 .nav-hamburger span {
   display: block;
   height: 2px;
+  width: 100%;
   background: var(--tan);
   border-radius: 1px;
   transition: background 0.2s;
@@ -141,7 +144,7 @@ nav {
 #hero {
   min-height: 100vh;
   max-width: 100%;
-  padding: 0;
+  padding: 56px 0 0 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   position: relative;
@@ -638,6 +641,7 @@ footer a { color: var(--amber-pale); }
     padding: 0.75rem 2rem;
     font-size: 0.85rem;
   }
+  .nav-open .nav-links { display: flex; }
   .nav-toggle-input:checked ~ .nav-links { display: flex; }
 }
 @media (max-width: 500px) {
