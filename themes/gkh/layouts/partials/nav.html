@@ -1,12 +1,12 @@
 <nav id="site-nav">
-  <a href="{{ if .IsHome }}#hero{{ else }}/{{ end }}" class="nav-brand">GKH music</a>
+  <a href="{{ if .IsHome }}#top{{ else }}/{{ end }}" class="nav-brand">GKH music</a>
 
   <button class="nav-hamburger" id="nav-toggle" aria-label="Open navigation menu" aria-expanded="false">
     <span></span><span></span><span></span>
   </button>
 
   <ul class="nav-links">
-    <li><a href="{{ if .IsHome }}#hero{{ else }}/{{ end }}">Top</a></li>
+    <li><a href="{{ if .IsHome }}#top{{ else }}/{{ end }}">Top</a></li>
     <li><a href="{{ if .IsHome }}{{ else }}/{{ end }}#about">About</a></li>
     <li><a href="{{ if .IsHome }}{{ else }}/{{ end }}#listen">Listen</a></li>
     <li><a href="{{ if .IsHome }}{{ else }}/{{ end }}#offer">What I Offer</a></li>

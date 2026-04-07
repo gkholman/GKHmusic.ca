@@ -148,8 +148,8 @@ nav {
   margin: 0 0 2rem 0;
 }
 
-/* ── HERO ──────────────────────────────────────────────── */
-#hero {
+/* ── top ──────────────────────────────────────────────── */
+#top {
   min-height: 100vh;
   max-width: 100%;
   padding: 56px 0 0 0;
@@ -158,13 +158,13 @@ nav {
   position: relative;
   overflow: hidden;
 }
-.hero-image {
+.top-image {
   height: 100vh;
   object-fit: cover;
   object-position: center top;
   filter: brightness(0.85);
 }
-.hero-content {
+.top-content {
   background: var(--navy);
   display: flex;
   flex-direction: column;
@@ -172,14 +172,14 @@ nav {
   padding: 4rem 4rem 4rem 4.5rem;
   position: relative;
 }
-.hero-content::before {
+.top-content::before {
   content: '';
   position: absolute;
   top: 0; left: -2px;
   width: 4px; height: 100%;
   background: var(--amber);
 }
-.hero-eyebrow {
+.top-eyebrow {
   font-family: 'Source Serif 4', serif;
   font-size: 0.72rem;
   font-weight: 400;
@@ -188,7 +188,7 @@ nav {
   color: var(--amber);
   margin-bottom: 1.5rem;
 }
-.hero-name {
+.top-name {
   font-family: 'Cormorant Garamond', serif;
   font-size: 4.5rem;
   font-weight: 300;
@@ -196,11 +196,11 @@ nav {
   line-height: 1.05;
   margin-bottom: 0.5rem;
 }
-.hero-name em {
+.top-name em {
   font-style: italic;
   color: var(--amber-pale);
 }
-.hero-tagline {
+.top-tagline {
   font-family: 'Source Serif 4', serif;
   font-size: 1.05rem;
   font-weight: 300;
@@ -212,7 +212,7 @@ nav {
   border-left: 2px solid var(--divider);
   padding-left: 1.25rem;
 }
-.hero-cta {
+.top-cta {
   display: inline-block;
   background: transparent;
   border: 1px solid var(--amber);
@@ -226,19 +226,19 @@ nav {
   transition: all 0.25s;
   align-self: flex-start;
 }
-.hero-cta:hover {
+.top-cta:hover {
   background: var(--amber);
   color: var(--navy);
   text-decoration: none;
 }
-.hero-contact {
+.top-contact {
   margin-top: 2rem;
   font-size: 0.82rem;
   color: var(--tan);
   letter-spacing: 0.05em;
 }
-.hero-contact a { color: var(--tan); }
-.hero-contact a:hover { color: var(--amber-pale); }
+.top-contact a { color: var(--tan); }
+.top-contact a:hover { color: var(--amber-pale); }
 
 /* ── ABOUT ─────────────────────────────────────────────── */
 .about-grid {
@@ -646,10 +646,10 @@ footer a { color: var(--amber-pale); }
 
 /* ── RESPONSIVE ────────────────────────────────────────── */
 @media (max-width: 1055px) {
-  #hero { grid-template-columns: 1fr; }
-  .hero-image { height: 50vh; }
-  .hero-content { padding: 3rem 2rem; }
-  .hero-name { font-size: 3rem; }
+  #top { grid-template-columns: 1fr; }
+  .top-image { height: 50vh; }
+  .top-content { padding: 3rem 2rem; }
+  .top-name { font-size: 3rem; }
   .about-grid { grid-template-columns: 1fr; }
   .about-photos { flex-direction: row; }
   .about-photo { width: 48%; aspect-ratio: 3/4; }
