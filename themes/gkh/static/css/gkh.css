@@ -630,9 +630,11 @@ footer a { color: var(--amber-pale); }
     flex-direction: column;
     gap: 0;
     position: fixed;
-    top: 56px; left: 0; right: 0;
+    top: 56px; right: 0;
+    min-width: 200px;
     background: rgba(26, 37, 53, 0.98);
     border-bottom: 1px solid var(--divider);
+    border-left: 1px solid var(--divider);
     padding: 0.5rem 0;
     z-index: 99;
   }
