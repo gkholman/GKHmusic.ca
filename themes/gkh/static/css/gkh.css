@@ -48,6 +48,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   height: 56px;
+  flex-wrap: wrap;
 }
 .nav-brand {
   font-family: 'Cormorant Garamond', serif;
@@ -71,8 +72,29 @@ nav {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   transition: color 0.2s;
+  text-decoration: none;
 }
 .nav-links a:hover { color: var(--amber-pale); text-decoration: none; }
+
+/* ── HAMBURGER MENU (mobile + narrow desktop) ──────────── */
+.nav-toggle-input { display: none; }
+.nav-hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24px;
+  height: 18px;
+  cursor: pointer;
+  z-index: 101;
+}
+.nav-hamburger span {
+  display: block;
+  height: 2px;
+  background: var(--tan);
+  border-radius: 1px;
+  transition: background 0.2s;
+}
+.nav-hamburger:hover span { background: var(--amber-pale); }
 
 /* ── STRAP DIVIDER ─────────────────────────────────────── */
 .strip {
@@ -582,7 +604,7 @@ footer a { color: var(--amber-pale); }
 .full-width-section > section { padding-top: 0; padding-bottom: 0; }
 
 /* ── RESPONSIVE ────────────────────────────────────────── */
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   #hero { grid-template-columns: 1fr; }
   .hero-image { height: 50vh; }
   .hero-content { padding: 3rem 2rem; }
@@ -599,7 +621,23 @@ footer a { color: var(--amber-pale); }
   .gallery-full { grid-template-columns: repeat(2, 1fr); }
   .thumb-grid { grid-template-columns: repeat(2, 1fr); }
   #gallery .thumb-grid { grid-template-columns: repeat(4, 1fr); }
-  .nav-links { display: none; }
+  .nav-hamburger { display: flex; }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    position: absolute;
+    top: 56px; left: 0; right: 0;
+    background: rgba(26, 37, 53, 0.98);
+    border-bottom: 1px solid var(--divider);
+    padding: 0.5rem 0;
+  }
+  .nav-links li a {
+    display: block;
+    padding: 0.75rem 2rem;
+    font-size: 0.85rem;
+  }
+  .nav-toggle-input:checked ~ .nav-links { display: flex; }
 }
 @media (max-width: 500px) {
   .thumb-grid { grid-template-columns: 1fr 1fr; }
