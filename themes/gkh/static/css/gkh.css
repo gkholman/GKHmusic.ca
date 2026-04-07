@@ -604,7 +604,7 @@ footer a { color: var(--amber-pale); }
 .full-width-section > section { padding-top: 0; padding-bottom: 0; }
 
 /* ── RESPONSIVE ────────────────────────────────────────── */
-@media (max-width: 960px) {
+@media (max-width: 1000px) {
   #hero { grid-template-columns: 1fr; }
   .hero-image { height: 50vh; }
   .hero-content { padding: 3rem 2rem; }
@@ -626,11 +626,12 @@ footer a { color: var(--amber-pale); }
     display: none;
     flex-direction: column;
     gap: 0;
-    position: absolute;
+    position: fixed;
     top: 56px; left: 0; right: 0;
     background: rgba(26, 37, 53, 0.98);
     border-bottom: 1px solid var(--divider);
     padding: 0.5rem 0;
+    z-index: 99;
   }
   .nav-links li a {
     display: block;
