@@ -6,6 +6,7 @@
   </button>
 
   <ul class="nav-links">
+    <li><a href="{{ if .IsHome }}#hero{{ else }}/{{ end }}">Top</a></li>
     <li><a href="{{ if .IsHome }}{{ else }}/{{ end }}#about">About</a></li>
     <li><a href="{{ if .IsHome }}{{ else }}/{{ end }}#listen">Listen</a></li>
     <li><a href="{{ if .IsHome }}{{ else }}/{{ end }}#offer">What I Offer</a></li>
