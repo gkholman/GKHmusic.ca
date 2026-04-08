@@ -10,7 +10,7 @@ disableKinds = ["taxonomy", "term", "RSS"]
   email       = "GKHmusic.ca@gmail.com"
   phone       = "+1-613-807-9268"
   location    = "Ottawa, Canada"
-  description = "Electronic Press Kit for G. Ken Holman — fingerstyle guitarist available for festivals, restaurants, wineries, private events, and cultural venues across the Ottawa region and beyond."
+  description = "Electronic Press Kit for G. Ken Holman — strumming guitarist and singer available for festivals, restaurants, wineries, private events, and cultural venues across the Ottawa region and beyond."
 
 [menu]
   [[menu.main]]
