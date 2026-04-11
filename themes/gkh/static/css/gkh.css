@@ -159,7 +159,7 @@ nav {
   overflow: hidden;
 }
 .top-image {
-  height: 100vh;
+  height: 80vh;
   object-fit: cover;
   object-position: center top;
   filter: brightness(0.85);
