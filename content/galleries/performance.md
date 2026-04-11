@@ -4,6 +4,9 @@ label:       "Gallery"
 gallery_key: "perf"
 back_url:    "https://gkhmusic.ca/#gallery"
 photos:
+  - image:   "20260409-Bowies-2.jpg"
+    alt:     "Ken at Bowie's"
+    caption: "Bowie's 2026-04-09"    
   - image:   "KenDanby1.png"
     alt:     "Ken at Danby's"
     caption: "Danby's 2026-03-30"
@@ -31,4 +34,7 @@ photos:
   - image:   "leprechaun.jpg"
     alt:     "St. Patrick's Day"
     caption: "St. Patrick's Day 2026"
+  - image:   "20260409-Bowies-1.jpg"
+    alt:     "Ken at Bowie's"
+    caption: "Bowie's 2026-04-09"    
 ---
