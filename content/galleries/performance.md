@@ -37,4 +37,7 @@ photos:
   - image:   "20260409-Bowies-1.jpg"
     alt:     "Ken at Bowie's"
     caption: "Bowie's 2026-04-09"    
+  - image:   "20260409-Bowies-3.jpg"
+    alt:     "Ken at Bowie's"
+    caption: "Bowie's 2026-04-09"    
 ---
