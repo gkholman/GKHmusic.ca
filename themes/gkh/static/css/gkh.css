@@ -150,7 +150,7 @@ nav {
 
 /* ── top ──────────────────────────────────────────────── */
 #top {
-  min-height: 100vh;
+  min-height: 80vh;
   max-width: 100%;
   padding: 56px 0 0 0;
   display: grid;
