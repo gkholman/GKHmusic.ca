@@ -23,7 +23,7 @@ photos:
   - image:   "Longido-2024-mountain.jpg"
     alt:     "Mount Longido"
     caption: "Mount Longido"    
-  - image:   "Longido-2025-meru.jpg    "
+  - image:   "Longido-2025-meru.jpg"
     alt:     "Mount Meru"
     caption: "Mount Meru"    
   - image:   "Longido-2025-kili.jpg"
