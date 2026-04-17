@@ -10,3 +10,10 @@ RewriteEngine On
 
 # projecTEMBO (projectembo.org) — NGO fundraising page
 RewriteRule ^r/tembo/?$ / [R=302,L]
+
+# Outbound to projecTEMBO information page
+RewriteRule ^r/info-tembo/?$ https://www.projectembo.org [R=302,L]
+
+# Outbound to projecTEMBO donation page
+RewriteRule ^r/donate-tembo/?$ https://www.projectembo.org/donate [R=302,L]
+
