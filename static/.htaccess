@@ -1,0 +1,12 @@
+# GKHmusic.ca — Referrer tracking redirects
+# Each /r/<token> path is a unique inbound referrer link.
+# Apache logs the hit before issuing the 302, so GoAccess
+# reports each token as a distinct URI with its own hit count.
+#
+# To add a referrer: append a line following the pattern below.
+# To remove a referrer: comment out or delete the line.
+
+RewriteEngine On
+
+# projecTEMBO (projectembo.org) — NGO fundraising page
+RewriteRule ^r/tembo/?$ / [R=302,L]
