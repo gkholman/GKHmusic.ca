@@ -15,5 +15,5 @@ RewriteRule ^r/tembo/?$ / [R=302,L]
 RewriteRule ^r/info-tembo/?$ https://www.projectembo.org [R=302,L]
 
 # Outbound to projecTEMBO donation page
-RewriteRule ^r/donate-tembo/?$ https://www.projectembo.org/donate [R=302,L]
+RewriteRule ^r/donate-tembo/?$ https://www.projectembo.org/how-you-can-help/fundraise-for-tembo/ [R=302,L]
 
