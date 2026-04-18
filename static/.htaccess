@@ -8,7 +8,7 @@
 
 RewriteEngine On
 
-# projecTEMBO (projectembo.org) — NGO fundraising page
+# Inbound from projecTEMBO (projectembo.org) — NGO fundraising page
 RewriteRule ^r/tembo/?$ / [R=302,L]
 
 # Outbound to projecTEMBO information page
@@ -16,4 +16,7 @@ RewriteRule ^r/info-tembo/?$ https://www.projectembo.org [R=302,L]
 
 # Outbound to projecTEMBO donation page
 RewriteRule ^r/donate-tembo/?$ https://www.projectembo.org/how-you-can-help/fundraise-for-tembo/ [R=302,L]
+
+# Outbound to ROSSS.ca information page
+RewriteRule ^r/info-rosss/?$ https://ROSSS.ca [R=302,L]
 
