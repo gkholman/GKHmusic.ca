@@ -20,3 +20,15 @@ RewriteRule ^r/donate-tembo/?$ https://www.projectembo.org/how-you-can-help/fund
 # Outbound to ROSSS.ca information page
 RewriteRule ^r/info-rosss/?$ https://ROSSS.ca [R=302,L]
 
+# Outbound to LinkedIn
+RewriteRule ^r/info-linkedin/?$ https://www.linkedin.com/in/gkholman/ [R=302,L]
+
+# Outbound to Facebook
+RewriteRule ^r/info-facebook/?$ https://facebook.com/g.ken.holman [R=302,L]
+
+# Outbound to McKay Guitars
+RewriteRule ^r/info-mckay/?$ https://McKayGuitars.ca [R=302,L]
+
+# Outbound to Skinner Leather
+RewriteRule ^r/info-skinner/?$ https://www.facebook.com/skinnerleather [R=302,L]
+
