@@ -38,6 +38,17 @@ photos:
   - image:   "DanbysTake3.png"
     alt:     "Ken at Danby's"
     caption: "Danby's 2026-03-30"
+  - image:   "Brew-Revolution-2026-04-19-1.jpg"
+    alt:     "Ken at Brew Revolution"
+    caption: "Brew Revolution 2026-04-19"    
+  - image:   "Brew-Revolution-2026-04-19-2.jpg"
+    alt:     "Ken at Brew Revolution"
+    caption: "Brew Revolution 2026-04-19"    
+
+
+
+
+
   - image:   "20260409-Bowies-3.jpg"
     alt:     "Ken at Bowie's"
     caption: "Many thanks for listening!"    
