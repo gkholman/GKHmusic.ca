@@ -688,3 +688,38 @@ footer a { color: var(--amber-pale); }
   .thumb-grid { grid-template-columns: 1fr 1fr; }
   .gallery-full { grid-template-columns: 1fr 1fr; }
 }
+
+/* ── CONFIRMED ENGAGEMENTS ─────────────────────────────── */
+.engagement-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+.engagement-card {
+  background: var(--cream);
+  border-top: 3px solid var(--amber);
+  padding: 1.25rem 1.25rem 1.1rem;
+}
+.engagement-card .eng-date {
+  font-size: 0.72rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--amber);
+  margin-bottom: 0.45rem;
+}
+.engagement-card h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--brown-dark);
+  margin-bottom: 0.35rem;
+  line-height: 1.25;
+}
+.engagement-card .eng-location {
+  font-size: 0.82rem;
+  color: var(--text-mid);
+}
+@media (max-width: 700px) {
+  .engagement-grid { grid-template-columns: 1fr; }
+}
