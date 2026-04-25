@@ -645,7 +645,7 @@ footer a { color: var(--amber-pale); }
 .full-width-section > section { padding-top: 0; padding-bottom: 0; }
 
 /* ── RESPONSIVE ────────────────────────────────────────── */
-@media (max-width: 1055px) {
+@media (max-width: 955px) {
   #top { grid-template-columns: 1fr; }
   .top-image { height: 50vh; }
   .top-content { padding: 3rem 2rem; }
@@ -694,12 +694,15 @@ footer a { color: var(--amber-pale); }
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
 }
 .engagement-card {
   background: var(--cream);
+  border: 1px solid var(--divider);
   border-top: 3px solid var(--amber);
+  border-radius: 2px;
   padding: 1.25rem 1.25rem 1.1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.07);
 }
 .engagement-card .eng-date {
   font-size: 0.72rem;
@@ -708,17 +711,31 @@ footer a { color: var(--amber-pale); }
   color: var(--amber);
   margin-bottom: 0.45rem;
 }
+.eng-title-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
 .engagement-card h3 {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.1rem;
   font-weight: 600;
   color: var(--brown-dark);
-  margin-bottom: 0.35rem;
   line-height: 1.25;
+  margin: 0;
+  white-space: nowrap;
 }
-.engagement-card .eng-location {
+.eng-address {
+  font-size: 0.8rem;
+  color: var(--text-mid);
+  font-style: italic;
+}
+.eng-calendar-note {
   font-size: 0.82rem;
   color: var(--text-mid);
+  font-style: italic;
+  margin-bottom: 1.5rem;
 }
 @media (max-width: 700px) {
   .engagement-grid { grid-template-columns: 1fr; }
