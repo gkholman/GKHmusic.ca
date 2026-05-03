@@ -28,7 +28,7 @@ photos:
     caption: "With Jenn Hann at Danby's 2026-04-20"
   - image:   "KenAndBongo-20260501.jpg"
     alt:     "Ken and Bongo at Bongopix"
-    caption: "With Bongo at Bongopix, Whitney"
+    caption: "With Bongo at Bongopix, Whitney 2026-05-01"
   - image:   "BrewRevolution-2026-04-19-1.jpg"
     alt:     "Ken at Brew Revolution"
     caption: "BrewRevolution 2026-04-19"    
