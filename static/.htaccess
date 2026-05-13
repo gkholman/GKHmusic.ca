@@ -15,7 +15,7 @@ RewriteRule ^r/tembo/?$ / [R=302,L]
 RewriteRule ^r/info-tembo/?$ https://www.projectembo.org [R=302,L]
 
 # Outbound to projecTEMBO donation page
-RewriteRule ^r/donate-tembo/?$ https://www.projectembo.org/how-you-can-help/fundraise-for-tembo/ [R=302,L]
+RewriteRule ^r/donate-tembo/?$ https://give-can.keela.co/ken-holman-stand-alone [R=302,L]
 
 # Outbound to ROSSS.ca information page
 RewriteRule ^r/info-rosss/?$ https://ROSSS.ca [R=302,L]
