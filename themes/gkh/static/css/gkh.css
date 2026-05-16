@@ -293,6 +293,24 @@ nav {
   color: var(--tan);
   margin-top: 0.75rem;
 }
+.listen-subhead {
+  font-family: var(--font-head);
+  font-size: 1.4rem;
+  color: var(--amber);
+  margin: 2rem 0 1.25rem;
+  border-bottom: 1px solid rgba(200,136,42,0.25);
+  padding-bottom: 0.4rem;
+}
+.listen-clip {
+  display: flex;
+  flex-direction: column;
+}
+.listen-title {
+  font-family: var(--font-head);
+  font-size: 1rem;
+  color: var(--cream);
+  margin-bottom: 0.5rem;
+}
 .facebook-link-card {
   background: var(--navy-mid);
   border: 1px solid var(--divider);
