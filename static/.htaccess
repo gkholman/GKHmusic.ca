@@ -14,6 +14,13 @@ RewriteRule ^r/tembo/?$ / [R=302,L]
 # Inbound from business card "Listen" QR code
 RewriteRule ^r/c/?$ /index.html#listen [R=302,L]
 
+# Inbound from CraneSoftwrights.com
+RewriteRule ^r/crane/?$ /index.html [R=302,L]
+
+
+
+
+
 # Outbound to projecTEMBO information page
 RewriteRule ^r/info-tembo/?$ https://www.projectembo.org [R=302,L]
 
