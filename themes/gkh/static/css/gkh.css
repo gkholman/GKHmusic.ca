@@ -271,7 +271,7 @@ nav {
 /* ── LISTEN ────────────────────────────────────────────── */
 .listen-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 2rem;
   align-items: start;
 }
@@ -671,7 +671,7 @@ footer a { color: var(--amber-pale); }
   .about-grid { grid-template-columns: 1fr; }
   .about-photos { flex-direction: row; }
   .about-photo { width: 48%; aspect-ratio: 3/4; }
-  .listen-grid { grid-template-columns: repeat(2, 1fr); }
+  .listen-grid { grid-template-columns: repeat(3, 1fr); }
   .offer-grid { grid-template-columns: 1fr; }
   .rep-grid { grid-template-columns: 1fr; }
   .nashipai-grid { grid-template-columns: 1fr; }
@@ -759,5 +759,8 @@ footer a { color: var(--amber-pale); }
   .engagement-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 600px) {
+  .listen-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 400px) {
   .listen-grid { grid-template-columns: 1fr; }
 }
