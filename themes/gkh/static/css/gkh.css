@@ -492,6 +492,13 @@ nav {
 }
 .gallery-item { display: flex; flex-direction: column; }
 
+.gallery-note {
+  font-size: 0.82rem;
+  color: var(--text-mid);
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
 /* ── THUMBNAIL GRID ────────────────────────────────────── */
 .thumb-grid {
   display: grid;
