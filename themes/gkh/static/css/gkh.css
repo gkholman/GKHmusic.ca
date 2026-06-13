@@ -493,6 +493,7 @@ nav {
 .gallery-item { display: flex; flex-direction: column; }
 
 .gallery-note {
+  margin-top: 1em;
   font-size: 0.82rem;
   color: var(--text-mid);
   font-style: italic;
