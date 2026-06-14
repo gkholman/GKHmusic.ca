@@ -82,5 +82,11 @@ photos:
   - image:   "1000007947.jpg"
     alt:     "Ken picking up Nashipai"
     caption: "Ken picking up Nashipai"
+  - image:   "Nashipai-travel-case.jpg"
+    alt:     "Travel case"
+    caption: "Travel case"
+  - image:   "Nashipai-xray.jpg"
+    alt:     "In airport xray in travel case"
+    caption: "In airport xray in travel case"
 
 ---
