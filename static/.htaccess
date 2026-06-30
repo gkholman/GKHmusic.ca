@@ -6,6 +6,12 @@
 # To add a referrer: append a line following the pattern below.
 # To remove a referrer: comment out or delete the line.
 
+###############################################################################
+#
+# AS A RULE OF THUMB: outbound redirects include hyphens, inbound do not
+#
+###############################################################################
+
 RewriteEngine On
 
 # Inbound from projecTEMBO (projectembo.org) — NGO fundraising page
