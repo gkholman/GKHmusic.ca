@@ -6,13 +6,14 @@
 # To add a referrer: append a line following the pattern below.
 # To remove a referrer: comment out or delete the line.
 
+RewriteEngine On
+
 ###############################################################################
 #
 # AS A RULE OF THUMB: outbound redirects include hyphens, inbound do not
 #
 ###############################################################################
 
-RewriteEngine On
 
 # Inbound from projecTEMBO (projectembo.org) — NGO fundraising page
 RewriteRule ^r/tembo/?$ / [R=302,L]
@@ -22,6 +23,9 @@ RewriteRule ^r/c/?$ /index.html#listen [R=302,L]
 
 # Inbound from CraneSoftwrights.com
 RewriteRule ^r/crane/?$ /index.html [R=302,L]
+
+# Inbound from Instagram
+RewriteRule ^r/i/?$ /index.html [R=302,L]
 
 
 
