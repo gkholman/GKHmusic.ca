@@ -27,6 +27,9 @@ RewriteRule ^r/crane/?$ /index.html [R=302,L]
 # Inbound from Instagram
 RewriteRule ^r/i/?$ /index.html [R=302,L]
 
+# Inbound from LinkedIn
+RewriteRule ^r/l/?$ /index.html [R=302,L]
+
 
 
 
