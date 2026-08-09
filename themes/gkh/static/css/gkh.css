@@ -671,7 +671,7 @@ footer a { color: var(--amber-pale); }
 .full-width-section > section { padding-top: 0; padding-bottom: 0; }
 
 /* ── RESPONSIVE ────────────────────────────────────────── */
-@media (max-width: 955px) {
+@media (max-width: 995px) {
   #top { grid-template-columns: 1fr; }
   .top-image { height: 50vh; }
   .top-content { padding: 3rem 2rem; }
