@@ -5,6 +5,12 @@ gallery_key: "perf"
 back_url:    "https://gkhmusic.ca/#gallery"
 photos:
 
+  - image:   "House-of-Pizza-Westboro-20260814.jpg"
+    alt:     "Ken at House of Pizza Westboro"
+    caption: "House of Pizza Westboro 2026-08-14"    
+  - image:   "groupie-20260814.png"
+    alt:     "One of my groupies!"
+    caption: "One of my groupies! 2026-08-14"    
   - image:   "20260409-Bowies-2.jpg"
     alt:     "Ken at Bowie's"
     caption: "Bowie's 2026-04-09"    
