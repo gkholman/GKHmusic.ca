@@ -5,6 +5,9 @@ gallery_key: "perf"
 back_url:    "https://gkhmusic.ca/#gallery"
 photos:
 
+  - image:   "House-of-Pizza-Westboro-20260814-2.jpg"
+    alt:     "Ken at House of Pizza Westboro"
+    caption: "House of Pizza Westboro 2026-08-14"    
   - image:   "House-of-Pizza-Westboro-20260814.jpeg"
     alt:     "Ken at House of Pizza Westboro"
     caption: "House of Pizza Westboro 2026-08-14"    
