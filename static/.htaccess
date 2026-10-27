@@ -33,7 +33,7 @@ RewriteRule ^r/l/?$ /index.html [R=302,L]
 
 
 # Inbound if visitor misses hash
-RewriteRule ^/listen/?$ /index.html#listen [R=302,L]
+RewriteRule ^listen/?$ /index.html#listen [R=302,L]
 
 
 # Outbound to projecTEMBO information page
