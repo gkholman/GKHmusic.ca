@@ -35,6 +35,10 @@ a { color: var(--amber); text-decoration: none; }
 a:hover { color: var(--brown); text-decoration: underline; }
 img { max-width: 100%; display: block; }
 
+.no-break {
+  white-space: nowrap;
+}
+
 /* ── FLOATING NAV ──────────────────────────────────────── */
 nav {
   position: fixed;
