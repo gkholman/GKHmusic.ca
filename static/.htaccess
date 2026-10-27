@@ -19,7 +19,7 @@ RewriteEngine On
 RewriteRule ^r/tembo/?$ / [R=302,L]
 
 # Inbound from business card "Listen" QR code
-RewriteRule ^r/c/?$ /index.html#listen [R=302,L]
+RewriteRule ^r/c/?$ /index.html#listen [R=302,NE,L]
 
 # Inbound from CraneSoftwrights.com
 RewriteRule ^r/crane/?$ /index.html [R=302,L]
@@ -33,7 +33,7 @@ RewriteRule ^r/l/?$ /index.html [R=302,L]
 
 
 # Inbound if visitor misses hash
-RewriteRule ^listen/?$ /index.html#listen [R=302,L]
+RewriteRule ^listen/?$ /index.html#listen [R=302,NE,L]
 
 
 # Outbound to projecTEMBO information page
