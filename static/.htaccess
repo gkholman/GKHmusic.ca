@@ -32,8 +32,18 @@ RewriteRule ^r/l/?$ /index.html [R=302,L]
 
 
 
-# Inbound if visitor misses hash
+# Inbound if visitor misses hash in the URI:
+RewriteRule ^top/?$ /index.html#top [R=302,NE,L]
+RewriteRule ^about/?$ /index.html#about [R=302,NE,L]
 RewriteRule ^listen/?$ /index.html#listen [R=302,NE,L]
+RewriteRule ^offer/?$ /index.html#offer [R=302,NE,L]
+RewriteRule ^availability/?$ /index.html#availability [R=302,NE,L]
+RewriteRule ^highlights/?$ /index.html#highlights [R=302,NE,L]
+RewriteRule ^payment/?$ /index.html#payment [R=302,NE,L]
+RewriteRule ^tips?/?$ /index.html#payment [R=302,NE,L]
+RewriteRule ^contact/?$ /index.html#contact [R=302,NE,L]
+RewriteRule ^nashipai/?$ /index.html#nashipai [R=302,NE,L]
+
 
 
 # Outbound to projecTEMBO information page
