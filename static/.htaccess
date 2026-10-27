@@ -55,3 +55,6 @@ RewriteRule ^r/info-mckay/?$ https://McKayGuitars.ca [R=302,L]
 # Outbound to Skinner Leather
 RewriteRule ^r/info-skinner/?$ https://www.facebook.com/skinnerleather [R=302,L]
 
+# Outbound to 2026-09 sampler
+RewriteRule ^r/sampler-202609/?$ https://youtube.com/shorts/MSbxKiuSqWg [R=302,L]
+
