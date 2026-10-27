@@ -307,6 +307,7 @@ nav {
 }
 .listen-title {
   font-family: var(--font-head);
+  text-align: center;
   font-size: 1rem;
   color: var(--cream);
   margin-bottom: 0.5rem;
